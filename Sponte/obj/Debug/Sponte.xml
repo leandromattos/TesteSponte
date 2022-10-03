@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sponte
+</name>
+</assembly>
+<members>
+<member name="T:Sponte.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir as propriedades que estão disponíveis em My Namespace para projetos da web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Sponte.My.MyWebExtension.Computer">
+ <summary>
+ Retorna informações sobre o computador host.
+ </summary>
+</member>
+<member name="P:Sponte.My.MyWebExtension.User">
+ <summary>
+ Retorna informações sobre o usuário atual da web.
+ </summary>
+</member>
+<member name="P:Sponte.My.MyWebExtension.Request">
+ <summary>
+ Retorna um objeto Request.
+ </summary>
+</member>
+<member name="P:Sponte.My.MyWebExtension.Response">
+ <summary>
+ Retorna um objeto Response.
+ </summary>
+</member>
+<member name="P:Sponte.My.MyWebExtension.Log">
+ <summary>
+ Retorna o objeto de log Asp.
+ </summary>
+</member>
+<member name="F:Sponte._Default._form1">
+<summary>
+Controle de form1.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo do designer para o arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Login._inputlogin">
+<summary>
+Controle inputlogin.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Login._password">
+<summary>
+Controle password.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Login._btnEntrar">
+<summary>
+Controle btnEntrar.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Login._lblerro">
+<summary>
+Controle lblerro.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._panelInscritos">
+<summary>
+Controle panelInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._TabInscritos">
+<summary>
+Controle TabInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._MultiPageInscritos">
+<summary>
+Controle MultiPageInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._ViewCadastro">
+<summary>
+Controle ViewCadastro.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._panelCadastroInscritos">
+<summary>
+Controle panelCadastroInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._Operacao">
+<summary>
+Controle Operacao.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._ID">
+<summary>
+Controle ID.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._inputNome">
+<summary>
+Controle inputNome.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._inputDataNascimento">
+<summary>
+Controle inputDataNascimento.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._msgDataNascimento">
+<summary>
+Controle msgDataNascimento.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._inputEmail">
+<summary>
+Controle inputEmail.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._inputUserInstagram">
+<summary>
+Controle inputUserInstagram.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._btnNovoInscritos">
+<summary>
+Controle btnNovoInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._btnSalvarInscritos">
+<summary>
+Controle btnSalvarInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._btnCancelarInscritos">
+<summary>
+Controle btnCancelarInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._btnExcluirModal">
+<summary>
+Controle btnExcluirModal.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._btnExcluirInscritos">
+<summary>
+Controle btnExcluirInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._ViewListagem">
+<summary>
+Controle ViewListagem.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._inputFiltroNome">
+<summary>
+Controle inputFiltroNome.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._inputFiltroEmail">
+<summary>
+Controle inputFiltroEmail.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._inputFiltroUsuario">
+<summary>
+Controle inputFiltroUsuario.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._btnFiltrarInscritos">
+<summary>
+Controle btnFiltrarInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._panelgridInscritos">
+<summary>
+Controle panelgridInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._gridInscritos">
+<summary>
+Controle gridInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Inscritos._lblerro">
+<summary>
+Controle lblerro.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._panelInstrutor">
+<summary>
+Controle panelInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._TabInstrutor">
+<summary>
+Controle TabInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._MultiPageInstrutor">
+<summary>
+Controle MultiPageInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._ViewCadastro">
+<summary>
+Controle ViewCadastro.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._panelCadastroInstrutor">
+<summary>
+Controle panelCadastroInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._Operacao">
+<summary>
+Controle Operacao.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._ID">
+<summary>
+Controle ID.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._inputNome">
+<summary>
+Controle inputNome.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._inputDataNascimento">
+<summary>
+Controle inputDataNascimento.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._msgDataNascimento">
+<summary>
+Controle msgDataNascimento.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._inputEmail">
+<summary>
+Controle inputEmail.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._btnNovoInstrutor">
+<summary>
+Controle btnNovoInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._btnSalvarInstrutor">
+<summary>
+Controle btnSalvarInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._btnCancelarInstrutor">
+<summary>
+Controle btnCancelarInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._btnExcluirModal">
+<summary>
+Controle btnExcluirModal.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._btnExcluirInstrutor">
+<summary>
+Controle btnExcluirInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._ViewListagem">
+<summary>
+Controle ViewListagem.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._inputFiltroNome">
+<summary>
+Controle inputFiltroNome.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._inputFiltroEmail">
+<summary>
+Controle inputFiltroEmail.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._btnFiltrarInstrutor">
+<summary>
+Controle btnFiltrarInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._panelgridInstrutor">
+<summary>
+Controle panelgridInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._gridInstrutor">
+<summary>
+Controle gridInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Instrutor._lblerro">
+<summary>
+Controle lblerro.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._panelLives">
+<summary>
+Controle panelLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._TabLives">
+<summary>
+Controle TabLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._MultiPageLives">
+<summary>
+Controle MultiPageLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._ViewCadastro">
+<summary>
+Controle ViewCadastro.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._panelCadastroLives">
+<summary>
+Controle panelCadastroLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._Operacao">
+<summary>
+Controle Operacao.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._ID">
+<summary>
+Controle ID.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._inputNome">
+<summary>
+Controle inputNome.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._inputDescricao">
+<summary>
+Controle inputDescricao.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._inputData">
+<summary>
+Controle inputData.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._msgDataNascimento">
+<summary>
+Controle msgDataNascimento.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._inputDuracao">
+<summary>
+Controle inputDuracao.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._inputValor">
+<summary>
+Controle inputValor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._comboInstrutor">
+<summary>
+Controle comboInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._btnNovoLives">
+<summary>
+Controle btnNovoLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._btnSalvarLives">
+<summary>
+Controle btnSalvarLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._btnCancelarLives">
+<summary>
+Controle btnCancelarLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._btnExcluirModal">
+<summary>
+Controle btnExcluirModal.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._btnExcluirLives">
+<summary>
+Controle btnExcluirLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._ViewInscritos">
+<summary>
+Controle ViewInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._RadAjaxPanel1">
+<summary>
+Controle RadAjaxPanel1.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._comboInscritos">
+<summary>
+Controle comboInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._lblerrorInscrito">
+<summary>
+Controle lblerrorInscrito.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._inputDataVencimento">
+<summary>
+Controle inputDataVencimento.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._Div1">
+<summary>
+Controle Div1.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._comboPago">
+<summary>
+Controle comboPago.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._panelgridInscritosLive">
+<summary>
+Controle panelgridInscritosLive.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._gridInscritosLive">
+<summary>
+Controle gridInscritosLive.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._ViewListagem">
+<summary>
+Controle ViewListagem.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._inputFiltroNome">
+<summary>
+Controle inputFiltroNome.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._comboFiltroInstrutor">
+<summary>
+Controle comboFiltroInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._inputFiltroData">
+<summary>
+Controle inputFiltroData.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._btnLimparFiltroLives">
+<summary>
+Controle btnLimparFiltroLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._btnFiltrarLives">
+<summary>
+Controle btnFiltrarLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._panelgridLives">
+<summary>
+Controle panelgridLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._gridLives">
+<summary>
+Controle gridLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Cadastro_Lives._lblerro">
+<summary>
+Controle lblerro.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._panelControleLives">
+<summary>
+Controle panelControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._TabControleLives">
+<summary>
+Controle TabControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._MultiPageControleLives">
+<summary>
+Controle MultiPageControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._ViewListagem">
+<summary>
+Controle ViewListagem.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._inputFiltroNome">
+<summary>
+Controle inputFiltroNome.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._comboFiltroInstrutor">
+<summary>
+Controle comboFiltroInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._inputFiltroData">
+<summary>
+Controle inputFiltroData.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._btnLimparControleLives">
+<summary>
+Controle btnLimparControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._btnFiltrarControleLives">
+<summary>
+Controle btnFiltrarControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._panelgridControleLives">
+<summary>
+Controle panelgridControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._gridControleLives">
+<summary>
+Controle gridControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._ViewInscritos">
+<summary>
+Controle ViewInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._panelInscritos">
+<summary>
+Controle panelInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._Operacao">
+<summary>
+Controle Operacao.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._IDLive">
+<summary>
+Controle IDLive.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._IDInscrito">
+<summary>
+Controle IDInscrito.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._inputNomeLive">
+<summary>
+Controle inputNomeLive.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._inputNomeInstrutor">
+<summary>
+Controle inputNomeInstrutor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._inputValorLive">
+<summary>
+Controle inputValorLive.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._inputDataLive">
+<summary>
+Controle inputDataLive.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._comboInscritos">
+<summary>
+Controle comboInscritos.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._lblerrorinscrito">
+<summary>
+Controle lblerrorinscrito.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._inputDataVencimento">
+<summary>
+Controle inputDataVencimento.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._Div1">
+<summary>
+Controle Div1.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._inputValor">
+<summary>
+Controle inputValor.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._comboPago">
+<summary>
+Controle comboPago.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._linhapagamento">
+<summary>
+Controle linhapagamento.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._btnNovoControleLives">
+<summary>
+Controle btnNovoControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._btnSalvarControleLives">
+<summary>
+Controle btnSalvarControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._btnCancelarControleLives">
+<summary>
+Controle btnCancelarControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._btnExcluirModal">
+<summary>
+Controle btnExcluirModal.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._btnExcluirControleLives">
+<summary>
+Controle btnExcluirControleLives.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._panelgridInscritosLive">
+<summary>
+Controle panelgridInscritosLive.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._gridInscritosLive">
+<summary>
+Controle gridInscritosLive.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Controle_Live._lblerro">
+<summary>
+Controle lblerro.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Site1._head">
+<summary>
+Controle head.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Site1._sidebarToggle">
+<summary>
+Controle sidebarToggle.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Site1._lblusuario">
+<summary>
+Controle lblusuario.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Site1._form1">
+<summary>
+Controle form1.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Site1._ContentPlaceHolder1">
+<summary>
+Controle ContentPlaceHolder1.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Site1._ScriptManager1">
+<summary>
+Controle ScriptManager1.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+<member name="F:Sponte.Site1._RadAjaxManager1">
+<summary>
+Controle RadAjaxManager1.
+</summary>
+<remarks>
+Campo gerado automaticamente.
+Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+</remarks>
+</member>
+</members>
+</doc>
